@@ -1,4 +1,8 @@
-import qr2 from '@/assets/qr-2.png';
+import qr2 from "@/assets/qr-2.png";
+import qrVikesh from "@/assets/qr-vikesh-NwOw8XhK.png";
+
+// Add the correct QR image import for the additional Kaptan account
+// once you have its verified QR file.
 
 export type BankAccount = {
   bankName: string;
@@ -11,13 +15,25 @@ export type BankAccount = {
 };
 
 export const BANK_ACCOUNTS: BankAccount[] = [
+  // Existing account — unchanged
   {
-    bankName: 'Central Bank of India',
-    accountHolderName: 'Kaptan Singh Bunkar (Account / Finance Manager)',
-    accountNumber: '5994923883',
-    ifscCode: 'CBIN0284853',
-    branchName: 'Mahroni',
-    upiId: 'pmindia452-3@okhdfcbank',
+    bankName: "Central Bank of India",
+    accountHolderName: "Kaptan Singh Bunkar (Account / Finance Manager)",
+    accountNumber: "5994923883",
+    ifscCode: "CBIN0284853",
+    branchName: "Mahroni",
+    upiId: "pmindia452-3@okhdfcbank",
     qr: qr2,
+  },
+
+  // Vikesh Rawat account
+  {
+    bankName: "Central Bank of India",
+    accountHolderName: "Vikesh Rawat (Account / Finance Manager)",
+    accountNumber: "4156485432",
+    ifscCode: "CBIN0280601",
+    branchName: "Mumbai Central",
+    upiId: "8750218964-jc2b-3@axl",
+    qr: qrVikesh,
   },
 ];
