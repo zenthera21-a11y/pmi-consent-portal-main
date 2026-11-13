@@ -820,7 +820,7 @@ export function FillForm() {
                     <div className="flex items-center gap-2 mb-4">
                       <Landmark className="w-4 h-4 text-seal" />
                       <h4 className="font-display text-base font-semibold text-ink">
-                        PMI Global Services — Bank Details
+                        PMI Services — Bank Details
                       </h4>
                     </div>
                     <dl className="space-y-3 text-sm">
@@ -902,14 +902,14 @@ export function FillForm() {
                   {formData.customerName || "[Customer Name]"}
                 </strong>
                 , hereby confirm that I have voluntarily availed/requested
-                services from PMI Global Services and agree to make payment for the
+                services from PMI Services and agree to make payment for the
                 services provided. I further declare and consent to the
                 following:
               </p>
               <ol className="list-decimal pl-5 space-y-2 marker:text-seal marker:font-semibold">
                 <li>
                   I have been informed about the nature, scope, and charges of
-                  the services provided by PMI Global Services and have no objection to
+                  the services provided by PMI Services and have no objection to
                   making payment for the same.
                 </li>
                 <li>
@@ -917,7 +917,7 @@ export function FillForm() {
                   charges relating to the services availed.
                 </li>
                 <li>
-                  I voluntarily authorize PMI Global Services to receive and process my
+                  I voluntarily authorize PMI Services to receive and process my
                   payment through the agreed mode of payment.
                 </li>
                 <li>
@@ -927,14 +927,14 @@ export function FillForm() {
                 <li>
                   I understand that any refund, cancellation, or adjustment, if
                   applicable, shall be governed by the terms and conditions of
-                  PMI Global Services.
+                  PMI Services.
                 </li>
                 <li>
                   I declare that all information and documents furnished by me
                   are true, accurate, and complete to the best of my knowledge.
                 </li>
                 <li>
-                  I agree that PMI Global Services shall not be held liable for any
+                  I agree that PMI  Services shall not be held liable for any
                   loss, delay, or issue arising from incorrect information
                   provided by me or from unauthorized use of my payment
                   instrument.
